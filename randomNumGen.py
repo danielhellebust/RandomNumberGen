@@ -36,9 +36,9 @@ class RandomNumber:
 
 if __name__ == "__main__":
 
-    amount = int(input('how many random numbers will be returned?'))
-    minRange = int(input('what is the starting range of the random number?'))
-    maxRange = int(input('what is the maximum value of the random number?'))
+    amount = int(input('How many random numbers will be returned?'))
+    minRange = int(input('What is the starting range of the random number?'))
+    maxRange = int(input('What is the maximum value of the random number?'))
     r1 = RandomNumber(amount,minRange,maxRange)
     r1.randomNumGenerator()
     print(f'Amount:{r1.amount}, minRange:{r1.minRange},maxRange:{r1.maxRange}')
