@@ -11,7 +11,7 @@ class RandomNumber:
         if isinstance(amount, int) and amount > 0:
             self.amount = amount
         else:
-            raise Exception('Amount must be an integer greater than 0')
+            raise Exception('amount must be an integer greater than 0')
 
         if isinstance(minRange, int) and minRange < maxRange:
             self.minRange = minRange
